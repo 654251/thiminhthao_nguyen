@@ -63,38 +63,51 @@ Date: March 9, 2026
 .skip {
 	position: absolute;
 	left: 0;
-	top: 120px;
+	top: 100px;
 }
 .skip:focus {
-	color: #fff;
+	color: orange;
 	background- color: #2a1f14;
 	text-decoration: none;
 	padding: 0.5%;
 	top: auto;
 	left: auto;
 	right: 1px;
-	z-index: 1;      
+	z-index: 1;    
+    
 
-	<!-- mobile style rules -->
+	/* Mobile style rules */
+    @media screen and (max-width: 600px) {
 		footer a {
-			display: inline block
-			padding: 4%
+			display: block;
+			margin-bottom: 10px;
 		}
-	<!-- Table media query -->
-		form 
-		/*Tablet Viewport: Style rules for footer area*/	
+    /* Mobile style rule for social images */
+    .social img {
+    display: inline-block;
+    padding: 4%;
+    }
+    }
+    
+    /* Tablet style rule */
+    @media screen and (min-width: 600px) and (max-width: 900px) {
+    form {
+    width: 80%;
+    margin: auto;
+    }
+	/* Tablet Viewport: Style rules for footer area */	
+    }
 		footer {
 			overflow: auto;
 		}
-		copyright class	{
-			position: left float;
+		.copyright {
+			float: left;
 			width: 65%;
 		}
-		social class {
-			position: right float;
+		.social {
+			float: right;
 			width: 25%;
-		}
-				
+		}		
   </style>
   </head>
 
@@ -108,7 +121,6 @@ Date: March 9, 2026
         <li><a href="gallery.html">Gallery | Wild Rescues</a></li>
         <li><a href="faqs.html">FAQs | Wild Rescues</a></li>
         <li><a href="contact.html">Contact Us – Location | Wild Rescues</a></li>
-        <li><a href="template.html">Template</a></li>
       </ul>
     </nav>
 
