@@ -1,4 +1,4 @@
-<style>
+ <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -47,7 +47,8 @@
 /* Style rules for skip navigation link */
 .skip {
 	position: absolute;
-	left: -999px;
+	left: 0;
+	top: 120px;
 }
 .skip:focus {
 	color: #fff;
