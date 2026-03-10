@@ -1,63 +1,99 @@
 <!--
 Student Name: THI MINH THAO NGUYEN
-File Name: index.html
-Date: March 7, 2026
+File Name: Project 3
+Date: March 9, 2026
 -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Wild Rescues is a local nonprofit organization dedicated to helping injured, neglected, or orphaned wildlife."
+    <meta name="description" content="Wild Rescues is a local nonprofit organization dedicated to helping injured, neglected, or orphaned wildlife."
     />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildlife Rescue | Wild Rescues</title>
 
-    <link rel="stylesheet" href="css/styles.min.css" />
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #4CAF50;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .social a {
+      margin-right: 10px;
+    }
+
+    .social img {
+      width: 32px;
+      height: 32px;
+      vertical-align: middle;
+    }
+/* Style rules for skip navigation link */
+.skip {
+	position: absolute;
+	left: -999px;
+}
+.skip:focus {
+	color: #fff;
+	background- color: #2a1f14;
+	text-decoration: none;
+	padding: 0.5%;
+	top: auto;
+	left: auto;
+	right: 1px;
+	z-index: 1;      
+
+   
+  </style>
   </head>
 
+  
   <body>
-    <!-- Skip to Content Link -->
-    <a class="skip" href="#content">Skip to Content</a>
-
-    <header>
-      <h1>Wild Rescues</h1>
-    </header>
-
+    <!-- Navigation Menu -->
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="partnership.html">Volunteer</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">Rescue - Rehabilitate | Wild Rescues</a></li>
+        <li><a href="partnership.html">Sponsorship | Wild Rescues</a></li>
+        <li><a href="gallery.html">Gallery | Wild Rescues</a></li>
+        <li><a href="faqs.html">FAQs | Wild Rescues</a></li>
+        <li><a href="contact.html">Contact Us – Location | Wild Rescues</a></li>
+        <li><a href="template.html">Template</a></li>
       </ul>
     </nav>
 
-    <main id="content">
-      <section>
-        <h2>
-          Watch this adorable moment as a mama raccoon teaches her baby how to
-          climb a tree!
-        </h2>
-
-        <div class="video">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/VpoLYJ3HjBg"
-            title="Mama Raccoon Teaches Baby to Climb Tree"
-            allowfullscreen
-          >
-          </iframe>
-
-          <p>Mama Raccoon Teaches Baby to Climb Tree</p>
-        </div>
-      </section>
-
-      <section>
-        <h2>Support Wildlife Conservation Today!</h2>
+ <section>
+        <h1>Support Wildlife Conservation Today!</h1>
 
         <p>
           Wild Rescues is dedicated to rescuing injured, neglected, and orphaned
@@ -71,7 +107,7 @@ Date: March 7, 2026
           sponsor. Contact us today.
         </p>
 
-        <h3>Our Latest Rescue: Baby Raccoons</h3>
+        <h2>Our Latest Rescue: Baby Raccoons</h2>
 
         <img
           src="https://www.welcomewildlife.com/wp-content/uploads/2019/02/Raccoon-Neil-McIntosh-Flickr-CC-BY-2.0-scaled.jpg"
@@ -79,19 +115,57 @@ Date: March 7, 2026
           height="300px"
           alt="Baby raccoons rescued"
         />
-
-        <p>
-          Meet our latest rescues, Fizz, Bandit, and Mohawk. These three little
-          guys were found abandoned near a home.
-        </p>
       </section>
-    </main>
+    
+    <!-- About Section -->
+  <section id="about">
+    <h1>Rescue - Rehabilitate | Wild Rescues</h1>
+    <p>We help rehabilitate local wildlife, such as raccoons, squirrels, fox, birds, deer, horses, pigs, and reptiles.</p>
+  </section>
+    
+    <!-- Partnership Section -->
+  <section id="Partnership">
+    <h1>Sponsorship | Wild Rescues</h1>
+    <p>Partner with us. We have several sponsorship opportunities available.</p>
+  </section>
 
-    <footer>
-      <div class="copyright">
-        <p>&copy; Copyright 2026. All Rights Reserved.</p>
-        <p>contact@wildrescues.net</p>
-      </div>
-    </footer>
+    <!-- Gallery Section -->
+  <section id="Gallery">
+    <h1>Gallery | Wild Rescues</h1>
+    <p>Meet our rescued friends. We have horses, goats, squirrels, pigs, deer, cows, rabbits, birds, turtles, and many more</p>
+  </section>
+
+    <!-- FAQs Section -->
+  <section id="FAQs">
+    <h1>FAQs | Wild Rescues</h1>
+    <p>Get answers to our most frequently asked questions</p>
+  </section>    
+
+    <!-- Contact Section -->
+  <section id="FAQs">
+    <h1>Contact Us – Location | Wild Rescues</h1>
+    <p>Contact us at (814)555-8989 or visit us at 8989 Rescue Drive, Ocala, FL for more information</p>
+  </section> 
+
+    <!-- Skip to Content Link -->
+    <a class="skip" href="#content">Skip to Content</a>
+
+     <!-- Footer -->
+  <footer>
+    <div class="copyright">
+      <p>&copy; 2026 Wild Rescues. All Rights Reserved.</p>
+      <p>contact@wildrescues.org</p>
+    </div>
+
+    <div class="social">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="Facebook logo">
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="https://toppng.com/uploads/preview/twitter-logo-11549680523gyu1fhgduu.png" alt="Twitter logo">
+      </a>
+    </div>
+  </footer>
+      
   </body>
 </html>
