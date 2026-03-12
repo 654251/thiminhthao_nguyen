@@ -60,5 +60,37 @@
 	right: 1px;
 	z-index: 1;      
 
-   
+   /* Mobile style rules */
+    @media screen and (max-width: 600px) {
+		footer a {
+			display: block;
+			margin-bottom: 10px;
+		}
+    /* Mobile style rule for social images */
+    .social img {
+    display: inline-block;
+    padding: 4%;
+    }
+    }
+    
+    /* Tablet style rule */
+    @media screen and (min-width: 600px) and (max-width: 900px) {
+    form {
+    width: 80%;
+    margin: auto;
+    }
+	/* Tablet Viewport: Style rules for footer area */	
+    }
+		footer {
+			overflow: auto;
+		}
+		.copyright {
+			float: left;
+			width: 65%;
+		}
+		.social {
+			float: right;
+			width: 25%;
+		}		
+
   </style>
